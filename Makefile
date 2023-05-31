@@ -1,7 +1,7 @@
 GOPATH:=$(shell go env GOPATH)
 DATETIME:=$(shell date "+%Y-%m-%d %H:%M:%S")
 VERSION:="0.0.1"
-PACKAGENAME:="github.com/uole/nrgo"
+PACKAGENAME:="github.com/uole/bardai"
 
 .PHONY: build
 build:
