@@ -7,4 +7,4 @@ PACKAGENAME:="github.com/uole/bardai"
 build:
 	go mod tidy
 	go mod vendor
-	CGO_ENABLED=0 go build -ldflags "-s -w -X '$(PACKAGENAME)/version.Version=$(VERSION)' -X '$(PACKAGENAME)/version.BuildDate=$(DATETIME)'" -o ./bin/nrgo ./cmd/main.go
+	CGO_ENABLED=0 go build -ldflags "-s -w -X '$(PACKAGENAME)/version.Version=$(VERSION)' -X '$(PACKAGENAME)/version.BuildDate=$(DATETIME)'" -o ./bin/bardai ./cmd/main.go
